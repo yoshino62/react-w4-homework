@@ -1,0 +1,61 @@
+.Weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Current-temperature {
+  color: #5e6363;
+  font-size: 62px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.Current-temperature-unit-metric {
+  color: #5e6363;
+  font-size: 24px;
+  position: relative;
+  bottom: 20px;
+}
+
+.Current-temperature-unit-imperial {
+  font-size: 24px;
+  position: relative;
+  bottom: 20px;
+}
+
+.Weather-details {
+  color: #9d9e9e;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.Weather-info {
+  color: rgba(53, 169, 212, 0.7);
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.humidity-icon {
+  width: 25px;
+}
+
+.wind-icon {
+  width: 25px;
+}
+
+.Current-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Current-weather-icon {
+  width: 130px;
+  height: 130px;
+}
+
+.Current-weather-condition {
+  text-align: center;
+  color: #5e6363;
+  font-size: 28px;
+  font-weight: 500;
+}

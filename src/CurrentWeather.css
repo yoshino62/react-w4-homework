@@ -1,0 +1,18 @@
+.Current-location-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Currrent-city {
+  color: #3d4040;
+  margin: 0;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.Current-time {
+  color: #5e6363;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 45px;
+}
